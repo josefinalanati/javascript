@@ -87,5 +87,10 @@ var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "A
 console.log(months[4]);
 console.log(months[10]);
 
+//**   b) Ordenar el array de meses alfabéticamente y mostrarlo por consola (utilizar sort).*/
+var months;
+months.sort();
+console.log(months);
+
 
 
