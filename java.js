@@ -67,7 +67,7 @@ var blankspace;
 blankspace = space.indexOf("bottle");
 console.log(blankspace);
 
-//**Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
+//**   f) Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
 // Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra 
 //de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, 
 //toUpperCase, toLowerCase y el operador +). */
@@ -77,6 +77,15 @@ var capitalizedWords = words[0].toUpperCase()
 + words[11].toUpperCase() 
 + words.substring(12,20).toLowerCase()
 console.log(capitalizedWords);
+
+//**Arrays */
+//**  a)Dado el siguiente array: 
+//["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre",
+// "Noviembre", "Diciembre"] mostrar por consola los meses 5 y 11 (utilizar console.log)*/
+var months = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", 
+"Noviembre", "Diciembre"]
+console.log(months[4]);
+console.log(months[10]);
 
 
 
