@@ -67,5 +67,16 @@ var blankspace;
 blankspace = space.indexOf("bottle");
 console.log(blankspace);
 
+//**Crear una variable de tipo string con al menos 2 palabras largas (10 caracteres y algún espacio entre medio).
+// Utilizar los métodos de los ejercicios anteriores para generar un nuevo string que tenga la primera letra 
+//de ambas palabras en mayúscula y las demás letras en minúscula (utilizar indexOf, substring, 
+//toUpperCase, toLowerCase y el operador +). */
+var words = "immaginary stocklist"
+var capitalizedWords = words[0].toUpperCase() 
++ words.substring(1,10).toLowerCase()
++ words[11].toUpperCase() 
++ words.substring(12,20).toLowerCase()
+console.log(capitalizedWords);
+
 
 
