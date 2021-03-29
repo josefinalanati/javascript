@@ -20,5 +20,6 @@ console.log(mostrario);
 var nombre , apellido
 nombre = "Pablo ";
 apellido = "Lopez";
+var personal = nombre + apellido
 var identidad = nombre.length + apellido.length;
-console.log(identidad);
+console.log(personal, identidad);
