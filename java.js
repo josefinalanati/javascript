@@ -124,7 +124,8 @@ console.log(specificmonths);
 //y sino un alerta con el mensaje “Lower than 0,5” */
 var newnumber = Math.random();
 console.log(newnumber)
-if (newnumber >= 0,5)
-	console.log ("Greater than 0,5");
+newnumber
+if (newnumber >= 0.5)
+	console.log ("Greater than 0.5");
 else
-	console.log("Lower than 0,5");
+	console.log("Lower than 0.5");
