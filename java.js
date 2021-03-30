@@ -158,6 +158,7 @@ if (age < 2) {
 //** For */
 //  a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript 
 //para mostrar una alerta utilizando cada una de las palabras.*/
-var names =["Josefina", "Lisandro", "Gimena", "Manuela", "Marcos"]
-for (var i = 0; i = 1; i ++); 
-    console.log("My name is")
+var clothesArray = ["tshirt", "jumper", "skirt", "sweater", "jeans"];
+for(i = 0; i < clothesArray.length; i++){
+   console.log("Clothes")
+}
