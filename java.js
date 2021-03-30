@@ -130,7 +130,7 @@ if (newnumber >= 0.5)
 else
 	console.log("Lower than 0.5");
 
-//** Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
+//**  b) Crear una variable “Age” que contenga un número entero entre 0 y 100 y muestre los siguientes mensajes de alerta:
 //“Bebe” si la edad es menor a 2 años
 //“Nino” si la edad es entre 2 y 12 años
 //“Adolecente” si la edad es entre 13 y 19 años
@@ -155,3 +155,9 @@ if (age < 2) {
 	console.log("Anciano")
 }
 
+//** For */
+//  a) Crear un array que contenga 5 palabras y recorrer dicho array utilizando un bucle for de JavaScript 
+//para mostrar una alerta utilizando cada una de las palabras.*/
+var names =["Josefina", "Lisandro", "Gimena", "Manuela", "Marcos"]
+for (var i = 0; i = 1; i ++); 
+    console.log("My name is")
